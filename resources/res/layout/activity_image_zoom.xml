@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/activity_image_zoom_0" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ooo.oxo.library.widget.PullBackLayout android:id="@+id/pbl" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <androidx.viewpager2.widget.ViewPager2 android:orientation="horizontal" android:id="@+id/expandVP" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </ooo.oxo.library.widget.PullBackLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <string name="app_name">Face Match
+    </string>
+    <string name="first_image">Tap to add first image
+    </string>
+    <string name="second_image">Tap to add second image
+    </string>
+    <string name="select_face">Select Face
+    </string>
+    <string name="camera">CAMERA
+    </string>
+    <string name="gallery">GALLERY
+    </string>
+    <string name="permission_denied_title">This app needs permission!
+    </string>
+    <string name="permission_denied_desc">You must grant the necessary permissions for app to work\10        properly.
+    </string>
+    <string name="permission_denied_settings_message">Please give the necessary permissions in the\10        permissions field.
+    </string>
+    <string name="ok">OK
+    </string>
+    <string name="remove">Remove
+    </string>
+    <string name="cancel">Cancel
+    </string>
+    <string name="yes">Yes
+    </string>
+    <string name="no">No
+    </string>
+    <string name="crop">Crop
+    </string>
+    <string name="permission_gallery_desc">Gallery permission is required to select photo in your\10        device.
+    </string>
+    <string name="permission_camera_desc">Camera permission is required to capture image on your\10        device camera.
+    </string>
+    <string name="permission_dialog_info_title">Information
+    </string>
+    <string name="compare">Compare Faces
+    </string>
+    <string name="face_selection">Face Selection
+    </string>
+    <string name="face_selection_desc">Choose at least one face
+    </string>
+    <string name="no_faces_detected">No Face Detected. Manual Crop Opening
+    </string>
+    <string name="error_occurred">An Error Occurred.
+    </string>
+    <string name="daily_limit_title">Your Daily * Compare Limit Is Reached
+    </string>
+    <string name="daily_limit_desc">You can continue to use it by buy the pro version of Face Match\10        App!
+    </string>
+    <string name="get_pro">Get On PlayStore
+    </string>
+    <string name="refresh">Refresh
+    </string>
+    <string name="first_image_empty">Please add first image
+    </string>
+    <string name="second_image_empty">Please add second image
+    </string>
+    <string name="max_premium_limit">Daily Maximum Premium Search Limit Reached
+    </string>
+</resources>

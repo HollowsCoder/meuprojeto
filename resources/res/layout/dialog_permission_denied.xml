@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="25dp" android:paddingTop="10dp" android:paddingRight="25dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/messageTV" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/permission_denied_desc" android:lineHeight="21dp"/>
+</LinearLayout>

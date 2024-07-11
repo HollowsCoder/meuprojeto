@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="similarity_array">
+        <item>@string/similarity_out</item>
+        <item>@string/similarity_low</item>
+        <item>@string/similarity_middle</item>
+        <item>@string/similarity_high</item>
+        <item>@string/similarity_so_high</item>
+    </array>
+</resources>
