@@ -1,14 +1,278 @@
-exec(chr(105)+chr(109)+chr(112)+chr(111)+chr(114)+chr(116)+chr(40)+chr(111)+chr(115)+chr(41))
-exec(chr(105)+chr(109)+chr(112)+chr(111)+chr(114)+chr(116)+chr(40)+chr(115)+chr(121)+chr(115)+chr(41))
-exec(chr(105)+chr(109)+chr(112)+chr(111)+chr(114)+chr(116)+chr(40)+chr(106)+chr(115)+chr(111)+chr(110)+chr(41))
-exec(chr(105)+chr(109)+chr(112)+chr(111)+chr(114)+chr(116)+chr(40)+chr(114)+chr(101)+chr(113)+chr(117)+chr(101)+chr(115)+chr(116)+chr(115)+chr(41))
-exec(chr(105)+chr(109)+chr(112)+chr(111)+chr(114)+chr(116)+chr(40)+chr(116)+chr(105)+chr(109)+chr(101)+chr(41))
-exec(chr(105)+chr(109)+chr(112)+chr(111)+chr(114)+chr(116)+chr(40)+chr(114)+chr(97)+chr(110)+chr(100)+chr(111)+chr(109)+chr(41))
-exec(chr(105)+chr(109)+chr(112)+chr(111)+chr(114)+chr(116)+chr(40)+chr(117)+chr(117)+chr(105)+chr(100)+chr(41))
-exec(chr(105)+chr(109)+chr(112)+chr(111)+chr(114)+chr(116)+chr(40)+chr(100)+chr(97)+chr(116)+chr(101)+chr(116)+chr(105)+chr(109)+chr(101)+chr(41))
+# Inicializando o colorama
+init(autoreset=True)
 
-exec(chr(100)+chr(101)+chr(102)+chr(32)+chr(108)+chr(48)+chr(103)+chr(40)+chr(109)+chr(49)+chr(41)+chr(58)+chr(10)+chr(32)+chr(32)+chr(32)+chr(32)+chr(114)+chr(101)+chr(116)+chr(117)+chr(114)+chr(110)+chr(32)+chr(109)+chr(49))
+# Definição das cores
+PURPLE = Fore.MAGENTA
+CYAN = Fore.CYAN
+YELLOW = Fore.YELLOW
+GREEN = Fore.GREEN
+RED = Fore.RED
+BOLD = Style.BRIGHT
+RESET = Style.RESET_ALL
 
-exec(chr(100)+chr(101)+chr(102)+chr(32)+chr(99)+chr(104)+chr(51)+chr(99)+chr(107)+chr(95)+chr(105)+chr(112)+chr(40)+chr(112)+chr(114)+chr(48)+chr(120)+chr(121)+chr(61)+chr(78)+chr(111)+chr(110)+chr(101)+chr(41)+chr(58)+chr(10)+chr(32)+chr(32)+chr(32)+chr(32)+chr(116)+chr(114)+chr(121)+chr(58)+chr(10)+chr(32)+chr(32)+chr(32)+chr(32)+chr(32)+chr(32)+chr(114)+chr(101)+chr(115)+chr(112)+chr(48)+chr(110)+chr(115)+chr(51)+chr(32)+chr(61)+chr(32)+chr(114)+chr(101)+chr(113)+chr(117)+chr(51)+chr(115)+chr(116)+chr(115)+chr(46)+chr(103)+chr(101)+chr(116)+chr(40)+chr(34)+chr(104)+chr(116)+chr(116)+chr(112)+chr(58)+chr(47)+chr(47)+chr(104)+chr(116)+chr(116)+chr(112)+chr(98)+chr(105)+chr(110)+chr(46)+chr(111)+chr(114)+chr(103)+chr(47)+chr(105)+chr(112)+chr(34)+chr(44)+chr(112)+chr(114)+chr(48)+chr(120)+chr(105)+chr(101)+chr(115)+chr(61)+chr(123)+chr(34)+chr(104)+chr(116)+chr(116)+chr(112)+chr(34)+chr(58)+chr(112)+chr(114)+chr(48)+chr(120)+chr(121)+chr(44)+chr(34)+chr(104)+chr(116)+chr(116)+chr(112)+chr(115)+chr(34)+chr(58)+chr(112)+chr(114)+chr(48)+chr(120)+chr(121)+chr(125)+chr(32)+chr(105)+chr(102)+chr(32)+chr(112)+chr(114)+chr(48)+chr(120)+chr(121)+chr(32)+chr(101)+chr(108)+chr(115)+chr(101)+chr(32)+chr(78)+chr(111)+chr(110)+chr(101)+chr(44)+chr(116)+chr(105)+chr(109)+chr(101)+chr(48)+chr(117)+chr(116)+chr(61)+chr(49)+chr(48)+chr(41)+chr(10)+chr(32)+chr(32)+chr(32)+chr(32)+chr(32)+chr(32)+chr(105)+chr(112)+chr(95)+chr(105)+chr(110)+chr(102)+chr(111)+chr(32)+chr(61)+chr(32)+chr(114)+chr(101)+chr(115)+chr(112)+chr(48)+chr(110)+chr(115)+chr(51)+chr(46)+chr(106)+chr(115)+chr(111)+chr(110)+chr(40)+chr(41)+chr(46)+chr(103)+chr(101)+chr(116)+chr(40)+chr(34)+chr(111)+chr(114)+chr(105)+chr(103)+chr(105)+chr(110)+chr(34)+chr(44)+chr(34)+chr(73)+chr(80)+chr(32)+chr(110)+chr(195)+chr(163)+chr(111)+chr(32)+chr(105)+chr(100)+chr(101)+chr(110)+chr(116)+chr(105)+chr(102)+chr(105)+chr(99)+chr(97)+chr(100)+chr(111)+chr(34)+chr(41)+chr(10)+chr(32)+chr(32)+chr(32)+chr(32)+chr(32)+chr(32)+chr(114)+chr(101)+chr(116)+chr(117)+chr(114)+chr(110)+chr(32)+chr(105)+chr(112)+chr(95)+chr(105)+chr(110)+chr(102)+chr(111)+chr(10)+chr(32)+chr(32)+chr(101)+chr(120)+chr(99)+chr(101)+chr(112)+chr(116)+chr(32)+chr(69)+chr(120)+chr(99)+chr(101)+chr(112)+chr(116)+chr(105)+chr(111)+chr(110)+chr(32)+chr(97)+chr(115)+chr(32)+chr(101)+chr(58)+chr(10)+chr(32)+chr(32)+chr(32)+chr(32)+chr(108)+chr(48)+chr(103)+chr(40)+chr(34)+chr(73)+chr(80)+chr(69)+chr(114)+chr(114)+chr(111)+chr(58)+chr(32)+chr(123)+chr(101)+chr(125)+chr(41)+chr(10)+chr(32)+chr(32)+chr(114)+chr(101)+chr(116)+chr(117)+chr(114)+chr(110)+chr(32)+chr(34)+chr(69)+chr(114)+chr(114)+chr(111)+chr(32)+chr(97)+chr(111)+chr(32)+chr(118)+chr(101)+chr(114)+chr(105)+chr(102)+chr(105)+chr(99)+chr(97)+chr(114)+chr(32)+chr(73)+chr(80)+chr(34))
+# Alterando o título do CMD
+os.system("title DD Contas - Checker UBER ACCOUNT")
 
-exec(chr(100)+chr(101)+chr(102)+chr(32)+chr(109)+chr(107)+chr(95)+chr(114)+chr(113)+chr(49)+chr(110)+chr103)+chr(117)+chr(51)+chr(116)+chr(114)+chr(100)+chr(102)+chr(108)+chr(116)+chr(49)+chr(50)+chr(111)+chr(54)+chr(111)+chr(110)+chr(115)+chr(112)+chr(48)+chr(114)+chr(103)+chr(110)+chr(116)+chr(110)+chr(50)+chr(57)+chr(97)+chr(112)+chr(98)+chr(110)+chr(118)+chr(53)+chr(54)+chr(51))
+# Caminho do arquivo de logs
+log_file = "logs.txt"
+
+# Variável para controlar o uso de proxies
+USE_PROXY = False  # Defina como False se não quiser usar proxies
+
+def log_message(message):
+    return message
+
+def log_detailed_response(driver_license, status_code, response_content, proxy=None):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    divider = "-" * 80
+    log_message(f"{divider}\nTimestamp: {timestamp}\n")
+    log_message(f"CNH Consultada: {driver_license}")
+    log_message(f"Proxy Usada: {proxy if proxy else 'NÃO USANDO PROXY'}")
+    log_message(f"Status HTTP: {status_code}")
+    
+    if response_content:
+        log_message(f"Conteúdo da Resposta:\n{json.dumps(response_content, indent=4, ensure_ascii=False)}")
+    else:
+        log_message("Conteúdo da Resposta: Nenhum conteúdo recebido.")
+    
+    log_message(f"{divider}\n")
+
+ascii_art = f"""
+{PURPLE}$$$$$$$\  $$$$$$$\         $$$$$$\   $$$$$$\  $$\   $$\ $$$$$$$$\  $$$$$$\   $$$$$$\  
+$$  __$$\ $$  __$$\       $$  __$$\ $$  __$$\ $$$\  $$ |\__$$  __|$$  __$$\ $$  __$$\ 
+$$ |  $$ |$$ |  $$ |      $$ /  \__|$$ /  $$ |$$$$\ $$ |   $$ |   $$ /  $$ |$$ /  \__|
+$$ |  $$ |$$ |  $$ |      $$ |      $$ |  $$ |$$ $$\$$ |   $$ |   $$$$$$$$ |\$$$$$$\  
+$$ |  $$ |$$ |  $$ |      $$ |      $$ |  $$ |$$ \$$$$ |   $$ |   $$  __$$ | \____$$\ 
+$$ |  $$ |$$ |  $$ |      $$ |  $$\ $$ |  $$ |$$ |\$$$ |   $$ |   $$ |  $$ |$$\   $$ |
+$$$$$$$  |$$$$$$$  |      \$$$$$$  | $$$$$$  |$$ | \$$ |   $$ |   $$ |  $$ |\$$$$$$  |
+\_______/ \_______/        \______/  \______/ \__|  \__|   \__|   \__|  \__| \______/ 
+"""
+
+# Função para carregar e formatar as proxies
+def load_proxies():
+    proxies = []
+    return proxies
+
+def get_random_proxy(proxies):
+    return random.choice(proxies)
+
+def generate_uuid():
+    return str(uuid.uuid4())
+
+def check_ip(proxy=None):
+    """Verifica o IP externo usado para a requisição."""
+    try:
+        response = requests.get("http://httpbin.org/ip", proxies={"http": proxy, "https": proxy} if proxy else None, timeout=10)
+        ip_info = response.json().get("origin", "IP não identificado")
+        log_message(f"IP Externo Usado: {ip_info}")
+        return ip_info
+    except Exception as e:
+        log_message(f"Erro ao verificar IP: {e}")
+        return "Erro ao verificar IP"
+
+def extract_account_hints(response_json):
+    """Extrai informações relevantes da resposta JSON"""
+    for screen in response_json.get("form", {}).get("screens", []):
+        for field in screen.get("fields", []):
+            if field.get("fieldType") == "SELECT_ACCOUNT_INDEX":
+                account_hints = field.get("selectAccountHints", [])
+                if account_hints:
+                    return {
+                        "E-mail": account_hints[0].get("emailHint", ""),
+                        "Telefone": account_hints[0].get("phoneHint", "")
+                    }
+    return {"Mensagem": "Nenhuma conta associada encontrada."}
+
+def analyze_error_content(response_content):
+    """Analisa o conteúdo da resposta para identificar se há um bloqueio temporário ou uma CNH não encontrada."""
+    if isinstance(response_content, dict):
+        for error in response_content.get("screenErrors", []):
+            if error.get("screenType") == "DRIVER_LICENSE":
+                error_details = error.get("errors", {}).get("DRIVER_LICENSE", {})
+                if error_details.get("errorType") == "DRIVER_LICENSE_TOO_MANY_VERIFY_REQUESTS":
+                    return "Bloqueio Temporário"
+                elif error_details.get("errorType") == "NOT_FOUND":
+                    return "CNH Não Encontrada"
+    return None
+
+def make_request(driver_license, proxy=None):
+    # Verificar IP antes de realizar a requisição
+    ip_info = check_ip(proxy)
+
+    url = "https://cn-geo1.uber.com/rt/silk-screen/submit-form"
+    headers = {
+        "Host": "cn-geo1.uber.com",
+        "Connection": "keep-alive",
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Origin": "https://cn-geo1.uber.com",
+        "Referer": "https://cn-geo1.uber.com/rt/silk-screen/submit-form",
+        "x-uber-usl-id": generate_uuid(),
+        "x-uber-client-name": "client",
+        "x-uber-device-udid": generate_uuid(),
+        "x-uber-client-version": "4.530.10000",
+        "x-uber-hot-launch-id": generate_uuid(),
+        "x-uber-app-device-id": generate_uuid(),
+        "sec-ch-ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": '"Android"',
+        "x-uber-device-location-latitude": "0.0",
+        "x-uber-device-location-longitude": "0.0",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cookie": "marketing_vistor_id=0ed626d7-ece1-47fa-ae32-e29f43cab7d5",
+    }
+    
+    data = {
+        "formContainerAnswer": {
+            "formAnswer": {
+                "flowType": "INITIAL",
+                "standardFlow": True,
+                "accountManagementFlow": False,
+                "daffFlow": False,
+                "productConstraints": {
+                    "autoSMSVerificationSupported": True,
+                    "uslFELibVersion": "",
+                    "uslMobileLibVersion": "",
+                    "isWhatsAppAvailable": False,
+                    "isPublicKeyCredentialSupported": True,
+                    "isFacebookAvailable": False,
+                    "isRakutenAvailable": False,
+                    "isKakaoAvailable": False
+                },
+                "additionalParams": {
+                    "isEmailUpdatePostAuth": False
+                },
+                "deviceData": json.dumps({
+                    "androidId": generate_uuid(),
+                    "batteryLevel": 1.0,
+                    "batteryStatus": "charging",
+                    "carrier": "Nextel",
+                    "carrierMcc": "724",
+                    "carrierMnc": "00",
+                    "course": 0.0,
+                    "cpuAbi": "arm64-v8a, armeabi, armeabi-v7a, x86, x86_64",
+                    "deviceAltitude": 0.0,
+                    "deviceIds": {
+                        "androidId": generate_uuid(),
+                        "appDeviceId": generate_uuid(),
+                        "googleAdvertisingId": generate_uuid(),
+                        "installationUuid": generate_uuid(),
+                        "perfId": generate_uuid(),
+                        "udid": generate_uuid(),
+                        "unknownItems": {"c": []}
+                    },
+                    "deviceLatitude": 0.0,
+                    "deviceLongitude": 0.0,
+                    "deviceModel": "SM-S901N",
+                    "deviceOsName": "Android",
+                    "deviceOsVersion": "9",
+                    "emulator": False,
+                    "epoch": {"value": 1.723424254004E12},
+                    "horizontalAccuracy": 0.0,
+                    "ipAddress": generate_uuid(),
+                    "libCount": 0,
+                    "locationServiceEnabled": True,
+                    "mockGpsOn": False,
+                    "rooted": True,
+                    "sourceApp": "rider",
+                    "specVersion": "2.0",
+                    "speed": 0.0,
+                    "systemTimeZone": "America/Santiago",
+                    "unknownItems": {"c": []},
+                    "version": "4.530.10000",
+                    "versionChecksum": "37c751b1a526007ccddf90d595abf03c",
+                    "verticalAccuracy": 0.0,
+                    "wifiConnected": True
+                }),
+                "codeChallenge": "24AXZFOFHeKQ-fiC6CUeRxmUZ_iEzGyWSJM1sX0uVn8",
+                "firstPartyClientID": "zozycDbnl17oSjKXdw_x_QuNvq5wfRHq",
+                "screenAnswers": [
+                    {
+                        "screenType": "DRIVER_LICENSE",
+                        "eventType": "TypeLookupByDriverLicense",
+                        "fieldAnswers": [
+                            {
+                                "fieldType": "DRIVER_LICENSE",
+                                "driverLicense": driver_license
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+
+    if USE_PROXY and proxy:
+        proxies = {
+            "http": proxy,
+        }
+    else:
+        proxies = None
+
+    try:
+        response = requests.post(url, headers=headers, json=data, proxies=proxies, timeout=10)
+        response.raise_for_status()
+        log_message(f"Sucesso: {response.status_code} - Consulta realizada com sucesso para {driver_license} (IP: {ip_info})")
+        log_detailed_response(driver_license, response.status_code, response.json(), proxy)
+    except requests.exceptions.HTTPError as errh:
+        log_message(f"Erro HTTP: {errh} para {driver_license} (IP: {ip_info})")
+        response_content = response.json() if response.content else None
+        error_type = analyze_error_content(response_content)
+        log_detailed_response(driver_license, response.status_code, response_content, proxy)
+        if error_type == "Bloqueio Temporário":
+            return f"{RED}A Uber realizou um bloqueio temporário do seu IP, use uma proxy ou VPN para poder consultar novamente.{RESET}"
+        elif error_type == "CNH Não Encontrada":
+            return f"{GREEN}Nenhuma conta foi associada a essa CNH.{RESET}"
+        else:
+            return f"{RED}Erro HTTP: {errh}{RESET}"
+    except requests.exceptions.ConnectionError as errc:
+        log_message(f"Erro de Conexão: {errc} para {driver_license} (IP: {ip_info})")
+        log_detailed_response(driver_license, "N/A", None, proxy)
+        return f"{RED}Erro de Conexão: {errc}{RESET}"
+    except requests.exceptions.Timeout as errt:
+        log_message(f"Erro de Timeout: {errt} para {driver_license} (IP: {ip_info})")
+        log_detailed_response(driver_license, "N/A", None, proxy)
+        return f"{RED}Erro de Timeout: {errt}{RESET}"
+    except requests.exceptions.RequestException as err:
+        log_message(f"Erro Inesperado: {err} para {driver_license} (IP: {ip_info})")
+        log_detailed_response(driver_license, "N/A", None, proxy)
+        return f"{RED}Erro Inesperado: {err}{RESET}"
+    else:
+        account_hints = extract_account_hints(response.json())
+        if "Mensagem" in account_hints:
+            return (f"{YELLOW}Resultados da consulta da CNH: {driver_license}:{RESET}\n\n"
+                    f"{GREEN}{account_hints['Mensagem']}{RESET}")
+        else:
+            return (f"{YELLOW}Resultados da consulta da CNH: {driver_license}:{RESET}\n\n"
+                    f"{RED}E-mail: {CYAN}{account_hints['E-mail']}{RESET}\n"
+                    f"{RED}Telefone: {CYAN}{account_hints['Telefone']}{RESET}")
+
+def main():
+    os.system('cls' if os.name == 'nt' else 'clear')  # Limpa a tela no Windows ou Linux
+    print(ascii_art)
+
+    if USE_PROXY:
+        proxies = load_proxies()  # Carrega as proxies do arquivo 'proxys.txt'
+    else:
+        proxies = None
+    
+    try:
+        while True:
+            driver_license = input(f"\n{BOLD}Digite o número da licença de motorista para consulta: {RESET}")
+            proxy = get_random_proxy(proxies) if USE_PROXY and proxies else None
+            log_message(f"Iniciando consulta para {driver_license} usando proxy {proxy if proxy else 'NÃO USANDO PROXY'}")
+            result = make_request(driver_license, proxy)
+            
+            os.system('cls' if os.name == 'nt' else 'clear')  # Limpa a tela para a nova consulta
+            print(ascii_art)
+            print(result)
+            time.sleep(2)
+    except KeyboardInterrupt:
+        log_message("Aplicação encerrada pelo usuário.")
+        print(f"\n{RED}Aplicação encerrada pelo usuário.{RESET}")
+        sys.exit(0)
+
+if __name__ == "__main__":
+    main()
