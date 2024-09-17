@@ -252,11 +252,13 @@ def make_request(driver_license, proxy=None):
 def main():
     os.system('cls' if os.name == 'nt' else 'clear')  # Limpa a tela no Windows ou Linux
     print(ascii_art)
-
+    
     if USE_PROXY:
         proxies = load_proxies()  # Carrega as proxies do arquivo 'proxys.txt'
     else:
         proxies = None
+    
+    consulta_count = 0  # Inicializa o contador de consultas
     
     try:
         while True:
@@ -268,6 +270,14 @@ def main():
             os.system('cls' if os.name == 'nt' else 'clear')  # Limpa a tela para a nova consulta
             print(ascii_art)
             print(result)
+            
+            consulta_count += 1  # Incrementa o contador de consultas
+            
+            if consulta_count >= 25:
+                print(f"\n{YELLOW}O limite de consultas foi atingido. O programa será encerrado em 10 segundos, logue novamente para novas consultas.{RESET}")
+                time.sleep(10)  # Aguarda 10 segundos antes de fechar
+                sys.exit(0)  # Encerra o programa
+            
             time.sleep(2)
     except KeyboardInterrupt:
         log_message("Aplicação encerrada pelo usuário.")
